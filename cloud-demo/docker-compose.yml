@@ -20,6 +20,6 @@ services:
   orderservice:
     build: ./order-service
   gateway:
-    build: ./gateway
+    build: ./gateway   # 网关地址
     ports:
       - "10010:10010"
